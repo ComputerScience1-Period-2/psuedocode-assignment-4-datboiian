@@ -3,11 +3,14 @@ Pseudocode assignment - War
 
 1) Shuffle a 52 card deck
 2) Deal a single card at a time in a clockwise manner to each player 
+// Minimum of 2 players
 3) When all 52 cards are dealt, players arrange them into a squared up stack facedown 
 4) All players turn over the top card of their stack and place it on the playing surface in front of them
-5)   The player who played the card with the highest value wins all of the cards played during the hand, and then places the won cards in their own stack 
-6)     If more than one player plays the same card, then a "War" is initiated, and the players who played the same card place 3 cards facedown and then play another card to determine the victor of the war
-7)       The player who plays the highest value card wins all cards played in the hand
-8)         If the players involved in the war tie again, the war process is repeated until there is a victor
+5) The player who played the card with the highest value wins all of the cards played during the hand, and then places the won cards in their own stack 
+6) If more than one player plays the same card
+   then a "War" is initiated, and the players who played the same card place 3 cards facedown and then play another card to determine the victor of the war
+7) The player who plays the highest value card wins all cards played in the hand
+8) If the players involved in the war tie again, 
+   then the war process is repeated until there is a victor
 9) The process of playing a hand (Steps 4 through 8) is repeated until one player possesses all 52 cards of the deck 
 10) The player who posesses all 52 cards of the deck wins the game   
